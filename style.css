@@ -1,0 +1,37 @@
+.FelsoDoboz {
+    border: 2px solid lightskyblue;
+    height: 80px;
+    display: flex;
+    flex-direction: row;
+    vertical-align: middle;
+  width: fit-content;
+  margin-bottom: 10px;
+}
+.AlsoDoboz {
+    border: 2px solid lightskyblue;
+    height: 80px;
+    background-color:orangered;
+    display: flex;
+    flex-direction: row;
+   width: fit-content;
+
+}
+.KekKocka {
+    width: 50px;
+    height: 50px;
+    background-color: lightskyblue;
+  margin: 10px;
+
+}
+.LilaKocka{
+    background-color: purple;
+    width: 50px;
+    height: 50px;
+  margin: 10px;
+}
+.FelsoDoboz:hover {
+  background-color: orangered;
+}
+.AlsoDoboz:hover {
+  background-color: white;
+}
